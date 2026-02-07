@@ -361,6 +361,7 @@ DllMain(HINSTANCE instance, DWORD reason, LPVOID reserved) {
 #endif
 
 #if (defined(__GNUC__) || defined(__clang__))
+#pragma GCC visibility push(default)
 #pragma GCC visibility pop
 #endif
 
